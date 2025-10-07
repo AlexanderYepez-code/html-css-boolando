@@ -2,4 +2,91 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
+}
+body{
+    font-family: sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+   
+    /* regole di debug */
+    
+}
+header{
+    background-color: orange;
+    min-height: 100px;
+}
+footer{
+    background-color: black;
+    min-height: 100px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    /* regole di debug */
+    
+    
+}
+.red{
+    color: red;
+}
+.font-size-small{
+    font-size: 0.95rem;
+}
+.padding-100{
+    padding-top: 100px;
+}
+.col-30{
+    width: 30%;
+    margin-bottom: 100px;
+    
+}
+.img-box{
+    position: relative;
+}
+
+.img-hover {
+    position: absolute;
+    left: 0;
+}
+
+.img-hover:hover {
+    display: none;
+}
+.heart:hover{
+    background-color: red;
+    color: white;
+}
+/* zona di prove */
+.disconunt{
+    position: absolute;
+    padding: 5px 10px;
+    background-color: red;
+    bottom: 100px;
+    color: white;
+
+}
+.sostebilità{
+    position: absolute;
+    padding: 5px 10px;
+    background-color: green;
+    bottom: 100px;
+    left: 60px;
+    color: white;
+
+}
+.heart{
+    position: absolute;
+    right: 0;
+    top: 25px;
+    font-size: 2.8rem;
+    padding: 10px 15px;
+    background-color: white;
 }
