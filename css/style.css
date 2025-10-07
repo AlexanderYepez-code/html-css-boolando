@@ -10,6 +10,13 @@ body{
 img{
     max-width: 100%;
 }
+ul{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+}
 
 .container{
     width: 80%;
@@ -19,12 +26,21 @@ img{
     
 }
 header{
-    background-color: orange;
-    min-height: 100px;
+    background-color: #fe6902;
+    min-height: 60px;
+    
 }
 footer{
     background-color: black;
     min-height: 100px;
+}
+ul{
+    gap: 15px;
+
+}
+.flex-logo{
+    display: flex;
+
 }
 .flex{
     display: flex;
@@ -37,6 +53,10 @@ footer{
 .red{
     color: red;
 }
+.white{
+    color: white;
+}
+
 .font-size-small{
     font-size: 0.95rem;
 }
@@ -45,8 +65,16 @@ footer{
 }
 .col-30{
     width: 30%;
-    margin-bottom: 100px;
-    
+    margin-bottom: 100px; 
+}
+.img-logo{
+    width: 150px;
+}
+.jc-between{
+    justify-content: space-between;
+}
+.aling-center{
+    align-items: center;
 }
 .img-box{
     position: relative;
@@ -81,6 +109,9 @@ footer{
     left: 60px;
     color: white;
 
+}
+.left-0{
+    left: 0;
 }
 .heart{
     position: absolute;
