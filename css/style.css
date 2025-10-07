@@ -12,10 +12,12 @@ img{
 }
 ul{
     list-style: none;
+    gap: 8px;
     
 }
 a{
     text-decoration: none;
+    color: white;
 }
 
 .container{
@@ -34,11 +36,11 @@ footer{
     background-color: black;
     min-height: 100px;
 }
-ul{
-    gap: 15px;
+footer ul{
+    gap: 9px;
 
 }
-.flex-logo{
+.flex-header-and-footer{
     display: flex;
 
 }
@@ -62,6 +64,9 @@ ul{
 }
 .padding-100{
     padding-top: 100px;
+}
+.padding-top-10{
+    margin-top: 10px;
 }
 .col-30{
     width: 30%;
